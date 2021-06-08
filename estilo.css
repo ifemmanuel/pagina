@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Inconsolata&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    background-image: url("img/progra.jpg");
+    background-size: 100vw 25vh;
+    background-repeat: no-repeat;
+    zoom:100%
+}
+.conten{
+    width: 100%;
+    height: 25vh;
+    background: linear-gradient(130deg, #509fc9, #e83b59);
+    opacity: 0.7;
+    }
+
+.conten h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: center;
+    font-size: 34px;
+    height: 100px;
+    z-index: 1;
+    font-family: "fjalla one", sans-serif;
+    color: white;
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px 26px;
+    font-family: Oswald;
+    font-size: 26px;
+}
+#menu{
+    width: 1000px;
+    height: 52px;
+}
+.barra{
+    color: black;
+    padding: 15px 0 0 0;
+}
+#menu a:hover{
+    color: black;
+    background: white;
+}
+img {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.div h1{
+    margin-left: 20px;
+    font-size: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.div img {
+    float: right;
+    width: 800px;
+    height: 450px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    border-radius: 800px;
+    overflow: hidden; 
+    background: linear-gradient(130deg,#0000ff, rgb(202, 152, 59));
+    opacity: 0.9; 
+}
+.div h2{
+    font-size: 18px;
+    margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.vertical h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: center;
+    font-size: 22px;
+    height: 100%;
+    z-index: 1;
+    font-family: "fjalla one", sans-serif;
+    color: black;
+    margin-left: 20px;
+
+}
+.vertical{
+    border-right: thick solid #0066FF;
+
+}
+main{
+    column-count: 2;
+}
+.table table td img{
+    width: 70px;
+    height: 10vh;
+    float: left;
+    background: linear-gradient(130deg, #509fc9);
+    opacity: 0.7;
+
+}
+.vertical table{
+    height: 30vh;
+}
+.table p{
+    font-size: 19px;
+    margin-left: 12%;
+    font-family: 'Open Sans', sans-serif;
+}
+.font h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: center;
+    font-size: 29px;
+    height: 100%;
+    font-family: "fjalla one", sans-serif;
+    color: black;
+}
+.color{
+    background-color: #c3e7f5;
+}
+.modulo h2{
+    margin: 20px; padding: 30px; 
+    font-size: 20px;
+    margin-left: 12%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.modulo table {
+    table-layout: fixed;
+    width: 100%;
+    height: 300px;
+}
+.modulo td{
+        border: 2px solid black;
+        width: 100%;
+        word-wrap: break-word;
+        height: 300px;
+}
+
+.modulo h1{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Mate SC', serif;
+}
+.yeah table {
+    table-layout: fixed;
+    width: 50%;
+	height: 300px;
+    margin-left: 430px;
+}
+.yeah td{
+        border: 2px solid black;
+        width: 50%;
+        word-wrap: break-word;
+}
+.modulo img{
+    width: 155px;
+    height: 15vh;
+    float: left;
+    opacity: 0.9;
+    text-align: center;
+    margin-left: 200px;
+}
+.yeah img{
+    width: 155px;
+    height: 15vh;
+    float: left;
+    opacity: 0.9;
+    text-align: center;
+    margin-left: 130px;
+}
+.derechos table{
+    width: 100%;
+    table-layout: fixed;
+    empty-cells: hide;
+}
+.expandir {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:normal;
+    margin:20px auto 30px;
+    height:80px;
+    width:530px;
+    }
+    
+
+
+
+
+    .expandir ul {
+    padding-top:10px;
+    margin-left:0;
+    }
+    
+    .expandir ul li {
+    float:left;
+    list-style-type:none;
+    }
+    
+    .expandir ul li a {
+    text-decoration:none;
+    }
+    
+    .expandir ul li a img {
+    width:62px; 
+    height:62px; 
+    border:none;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    }
+    
+    .expandir ul li a span {
+    display:none;
+    }
+    
+    .expandir ul li:hover a span {
+    display:block;
+    font-size:14px;
+    text-align:center;
+    color:#000;
+    }
+    
+    .expandir ul li:hover a img {
+    width:90px;
+    height:90px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    }
+    .fondo{
+        background-color: #343434;
+    }
+    .derechos p{
+        color: white;
+       font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        position: CENTER;
+    }
+    .derechos a{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+    }
+    .expandir{
+        color: white;
+    }
+    .reservado{
+        background-color: #343434;
+    }
+    .reservado h2{
+        margin-left: 30%;
+        font-size: 13px;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+    .span{
+        color: white;
+    }
+   
